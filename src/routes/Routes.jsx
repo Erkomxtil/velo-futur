@@ -7,6 +7,10 @@ import { VeloRoute } from "../pages/VeloRoute"
 import { Vtt } from "../pages/Vtt"
 import { Electrique } from "../pages/Electrique"
 import { Occasion } from "../pages/Occasion"
+import { Legal } from "../pages/Legal"
+import { Contact } from "../pages/Contact"
+import { Accueil } from "../pages/Accueil"
+
 
 export const Router = createBrowserRouter ([
   {
@@ -14,6 +18,10 @@ export const Router = createBrowserRouter ([
     element: <Home />,
     errorElement: <PageError />,
     children : [
+      {
+        index: true,
+        element: <Accueil />
+      },
       {
         path: 'magasin',
         element: <Magasin />,
@@ -33,6 +41,14 @@ export const Router = createBrowserRouter ([
       {
         path: 'occasion',
         element: <Occasion />
+      },
+      {
+        path: 'contact',
+        element: <Contact/>
+      },
+      {
+        path: 'legal',
+        element: <Legal/>
       }
     ]
   }
