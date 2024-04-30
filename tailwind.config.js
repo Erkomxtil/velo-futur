@@ -6,6 +6,11 @@ export default {
     "./src/**/*"
   ],
   theme: {
+    screens: {
+      'phone': '768px',
+      'laptop': '1024px',
+      'desktop': '1200px'
+    },
     extend: {},
   },
   plugins: [],
