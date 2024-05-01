@@ -10,7 +10,7 @@ export const Footer = () => {
           Contact<br />
           <span>Tél : 09.52.30.47.57 / 07.66.43.81.01</span> <br />
           email : <a className="mb-2 inline-block" href="mailto:contact@velofutur.com">contact@velofutur.com</a> <br />
-          <Link to="legal">Mentions légales</Link>
+          <Link to="legal">Mentions légales</Link> / <a href="https://delastef.netlify.app/" target="_blank">©delastefprod 2024</a>
         </p>
         <p className="flex flex-col mb-4 items-center phone:items-end phone:flex-row phone:mb-0">
           Paiement facilité avec Floa : <img className="h-[60px] w-[61px]" src={floa} alt="Logo de floa" />
