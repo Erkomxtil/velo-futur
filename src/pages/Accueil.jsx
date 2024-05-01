@@ -1,22 +1,14 @@
-import { Titlepage } from "../components/Titlepage"
-import devanture from "../assets/devanture-magasin.jpg"
-import { BikeCard } from "../components/BikeCard";
+import { BikeCard } from "../components/BikeCard"
 import gone from "../assets/g-one.jpg"
 import origine from "../assets/origine.jpg"
 import { LogoPartner } from "../components/LogoPartner"
+import { Intro } from "../components/Intro"
 
 export const Accueil = () => {
   return (
     <div className="relative m-auto text-white mb-10">
-      <div className="h-[400px] overflow-hidden">
-        <img className="w-full blur-[4px] brightness-[.5] translate-y-[-336px]" src={devanture} alt="Devanture du magasin de Vélo futur" />
-      </div>
-      <div className="px-[20px] max-w-[1200px] absolute top-0 left-[50%] translate-x-[-50%]">
-        <Titlepage title="Vélo Futur Dun le palestel,"/>
-        <p className="text-[40px] text-[white] uppercase">Votre magasin de vélos : vente - réparation - entretien - location</p>
-        <p className="font-[100] pt-5 text-2xl">Découvrez l&#39;ensemble de la gamme de nos vélo afin de trouver celui le plus adapté à vos besoins.</p>
-      </div>
-      <div className="flex justify-center mt-[-100px] z-20 relative">
+      <Intro title="Vélo Futur Dun le palestel,"/>
+      <div className="flex flex-col items-center z-20 relative laptop:gap-[10px] laptop:flex-row laptop:justify-center laptop:mt-[-100px] laptop:items-start">
         <BikeCard 
           title="G-one Black Hill" 
           image={gone} 
@@ -30,11 +22,11 @@ export const Accueil = () => {
           link="https://www.origine-cycles.com/fr-FR/velo/route/patins/axxome-rs"        
         />
       </div>
-      <div>
+      <div className="px-5">
         <h2 className="text-black text-2xl font-[100] text-center">Nous sommes également revendeur officiel des marques suivantes :</h2>
         <LogoPartner />
       </div>
     </div>
-  );
-};
+  )
+}
 

@@ -1,6 +1,6 @@
 export const Infos = () => {
   return (
-    <div className="w-[500px]">
+    <div className="w-full phone:w-[500px]">
       <h2 className="text-center uppercase mb-8">Horaires d&#39;ouverture</h2>
       <div className="flex border-t-[1px] border-[#EFEFEF] border-solid h-[50px] items-center">
         <div className="flex-1 pl-4">Lundi</div>
@@ -32,6 +32,6 @@ export const Infos = () => {
       </div>
 
     </div>
-  );
-};
+  )
+}
 

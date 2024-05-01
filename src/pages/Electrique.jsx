@@ -1,5 +1,3 @@
-import { Titlepage } from "../components/Titlepage"
-import devanture from "../assets/devanture-magasin.jpg"
 import { BikeCard } from "../components/BikeCard"
 import eurban34 from "../assets/E-Urban-3.4.jpg"
 import eurban44 from "../assets/E-Urban-4.4.jpg"
@@ -7,19 +5,13 @@ import overvolt from "../assets/Overvolt-HT-5.5.jpg"
 import gone from "../assets/gone-mag.jpg"
 import suun from "../assets/suun-elec.jpg"
 import gitane from "../assets/gitane.jpg"
+import { Intro } from "../components/Intro"
 
 export const Electrique = () => {
   return (
     <div className="relative m-auto text-white mb-10">
-      <div className="h-[400px] overflow-hidden">
-        <img className="w-full blur-[4px] brightness-[.5] translate-y-[-336px]" src={devanture} alt="Devanture du magasin de Vélo futur" />
-      </div>
-      <div className="px-[20px] max-w-[1200px] absolute top-0 left-[50%] translate-x-[-50%]">
-        <Titlepage title="Vélo électrique"/>
-        <p className="text-[40px] text-[white] uppercase">Votre magasin de vélos : <br/>vente - réparation - entretien - location</p>
-        <p className="font-[100] pt-5 text-2xl">Découvrez l&#39;ensemble de la gamme de nos vélo afin de trouver celui le plus adapté à vos besoins.</p>
-      </div>
-      <div className="flex justify-center mt-[-100px] z-20 relative">
+      <Intro title="Vélo électrique" />
+      <div className="flex flex-col items-center z-20 relative laptop:gap-[10px] laptop:flex-row laptop:justify-center laptop:mt-[-100px] laptop:items-start">
         <BikeCard 
           title="E-Urban 3.4 2023" 
           image={eurban34} 
@@ -33,7 +25,7 @@ export const Electrique = () => {
           link="https://www.lapierrebikes.com/fr-fr/o/e-urban-44-2023/"        
         />
       </div>
-      <div className="flex justify-center z-20 relative">
+      <div className="flex flex-col items-center z-20 relative laptop:gap-[10px] laptop:flex-row laptop:justify-center laptop:items-start">
         <BikeCard 
           title="Overvolt HT 5.5" 
           image={overvolt} 
@@ -47,7 +39,7 @@ export const Electrique = () => {
           link="https://www.cycles-gitane.fr/modeles/g-one-black-hill"        
         />
       </div>
-      <div className="flex justify-center z-20 relative">
+      <div className="flex flex-col items-center z-20 relative laptop:gap-[10px] laptop:flex-row laptop:justify-center laptop:items-start">
         <BikeCard 
           title="SUNN STARTS-S" 
           image={suun} 

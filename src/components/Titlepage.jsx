@@ -4,5 +4,5 @@ Titlepage.propTypes = {
 }
 
 export function Titlepage({ title }) {
-  return <h1 className="uppercase text-[50px] text-center pt-[40px] mb-[60px]">{title}</h1>
+  return <h1 className="uppercase  text-[40px] mb-[30px] pt-[5%] laptop:text-[40px] text-center  laptop:mb-[30px]">{title}</h1>
 }

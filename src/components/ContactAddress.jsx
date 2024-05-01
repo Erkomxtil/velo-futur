@@ -4,9 +4,9 @@ import place from "../assets/place.png"
 
 export const ContactAddress = () => {
   return (
-    <div>
+    <div className="px-[20px] mb-[20px]">
       <p  className="border-b-[1px] border-[#EFEFEF] border-solid pb-8 font-[100]">Situé sur la rue du Barreau Vert à 150 mètres de Gedimat et 260 mètres de la caisse d&#39;épargne.</p>
-      <div className="flex gap-10 pt-5">
+      <div className="flex gap-10 pt-5 flex-col phone:flex-row">
         <div >
           <h3 className="uppercase mb-5">Nous contacter</h3>
           <div>
