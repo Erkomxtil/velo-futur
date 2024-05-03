@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="text-[white] flex flex-col items-center w-full uppercase leading-6 phone:justify-between phone:items-end phone:flex-row">
         <p className="text-center mb-4 phone:text-left phone:mb-0 phone:inline-block">
           Contact<br />
-          <span>Tél : 09.52.30.47.57 / 07.66.43.81.01</span> <br />
+          <span>Tél : <a title="Appeler" rel="nofollow" href="tel:0952304757">09.52.30.47.57&nbsp; </a> / <a title="Appeler" rel="nofollow" href="tel:0766438101">&nbsp;07.66.43.81.01</a></span> <br />
           email : <a className="mb-2 inline-block" href="mailto:contact@velofutur.com">contact@velofutur.com</a> <br />
           <Link to="legal">Mentions légales</Link> / <a href="https://delastef.netlify.app/" target="_blank">©delastefprod 2024</a>
         </p>

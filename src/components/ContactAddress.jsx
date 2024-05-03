@@ -11,7 +11,7 @@ export const ContactAddress = () => {
           <h3 className="uppercase mb-5">Nous contacter</h3>
           <div>
           <p className="flex items-center mb-5 font-[100]">
-            <img className="h-[30px] mr-5" src={phone} alt="" /> <a title="Appeler" rel="nofollow" href="tel:+33952304757">09.52.30.47.57&nbsp; </a> / <a title="Appeler" rel="nofollow" href="+33766438101">&nbsp;07.66.43.81.01</a> <br />
+            <img className="h-[30px] mr-5" src={phone} alt="" /> <a title="Appeler" rel="nofollow" href="tel:+33952304757">09.52.30.47.57&nbsp; </a> / <a title="Appeler" rel="nofollow" href="tel:+33766438101">&nbsp;07.66.43.81.01</a> <br />
           </p>
           <p className="flex font-[100]">
             <img className="h-[30px] mr-5" src={arobase} alt="" /><a title="Envoyer un email" href="mailto:contact@velofutur.com">Par mail</a>
