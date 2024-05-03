@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import { Titlepage } from "./Titlepage"
 import devanture from "../assets/devanture-magasin.jpg"
+
 Intro.propTypes = {
   title: PropTypes.string.isRequired
 }
@@ -17,6 +18,6 @@ export function Intro({title}) {
         <p className="font-[100] pt-5 text-2xl text-center">Découvrez l&#39;ensemble de la gamme de nos vélo afin de trouver celui le plus adapté à vos besoins.</p>
       </div>
     </>
-  );
+  )
 }
 

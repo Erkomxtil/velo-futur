@@ -10,7 +10,8 @@ import { Occasion } from "../pages/Occasion"
 import { Legal } from "../pages/Legal"
 import { Contact } from "../pages/Contact"
 import { Accueil } from "../pages/Accueil"
-
+import { NavMobile } from "../components/NavMobile"
+import { useState } from "react"
 
 export const Router = createBrowserRouter ([
   {
@@ -55,13 +56,16 @@ export const Router = createBrowserRouter ([
 ])
 
 function Home() {
+  const [nav, setNav] = useState(false) 
+
   return (
-    <div className="h-[100vh] flex flex-col">
-      <Header />
+    <div className={nav ? 'h-[100vh] flex flex-col relative overflow-hidden':'h-[100vh] flex flex-col relative'}>
+      <Header nav={nav} setNav={setNav}/>
       <div className="grow">
         <Outlet />
       </div>
       <Footer /> 
+      <NavMobile setNav={setNav} nav={nav}/>
     </div>
   )
 }

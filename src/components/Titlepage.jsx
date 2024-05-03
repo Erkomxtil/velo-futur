@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+
 Titlepage.propTypes = {
   title: PropTypes.string.isRequired
 }

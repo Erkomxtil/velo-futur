@@ -30,7 +30,6 @@ export const Infos = () => {
         <div className="flex-1 pl-4">Dimanche</div>
         <div className="flex-[2]">Fermé</div>
       </div>
-
     </div>
   )
 }

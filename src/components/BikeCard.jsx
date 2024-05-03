@@ -3,7 +3,7 @@ BikeCard.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   infos: PropTypes.string.isRequired,
-  price: PropTypes.string.isRequired,
+  price: PropTypes.string,
   link: PropTypes.string.isRequired,
  
 }
@@ -20,5 +20,5 @@ export function BikeCard ({title, image, infos, price, link}) {
         </p>      
       </a>
     </div>
-  );
+  )
 }

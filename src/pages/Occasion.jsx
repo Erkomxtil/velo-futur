@@ -38,5 +38,5 @@ export const Occasion = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
