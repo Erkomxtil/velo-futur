@@ -6,8 +6,8 @@ import { Intro } from "../components/Intro"
 
 export const Accueil = () => {
   return (
-    <div className="relative m-auto text-white mb-10">
-      <Intro title="Vélo Futur Dun le palestel,"/>
+    <div className="relative m-auto text-white mb-[30px]">
+      <Intro title="Vélo Futur Dun-le-palestel,"/>
       <div className="flex flex-col items-center z-20 relative laptop:gap-[10px] laptop:flex-row laptop:justify-center laptop:mt-[-100px] laptop:items-start">
         <BikeCard 
           title="G-one Black Hill" 

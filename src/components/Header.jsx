@@ -16,7 +16,7 @@ export function Header ({setNav, nav}) {
     <header className='z-50'>
       <div className='flex justify-center'>
         <a href="/">
-          <img className='h-[120px]' src={logo} alt="Le logo de Vélo futur Dun le Palestel" />
+          <img className='h-[120px]' src={logo} alt="Le logo de Vélo futur Dun-le-Palestel" />
         </a>
       </div>
       <nav className='bg-[#0099FF] h-8 mt-5 justify-center items-center laptop:flex laptop:relative'>

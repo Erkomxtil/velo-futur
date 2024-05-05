@@ -8,7 +8,7 @@ export const Magasin = () => {
         <img className="w-full blur-[4px] brightness-[.5] phone:translate-y-[-10px] laptop:translate-y-[-190px] hidden phone:block" src={devanture} alt="Devanture du magasin de Vélo futur" />
       </div>
       <div className="bg-[#413A3A] px-[20px] pb-10 laptop:pb-0 laptop:bg-transparent laptop:w-full laptop:max-w-[1200px] laptop:absolute laptop:top-0 left-[50%] laptop:translate-x-[-50%]">
-        <Titlepage title="Votre magasin Vélo Futur Dun le palestel,"/>
+        <Titlepage title="Votre magasin Vélo Futur Dun-le-palestel,"/>
       </div>
       <div className="flex justify-center mt-[20px] laptop:mt-[-240px] z-20 relative ">
         <div className="text-black text-2xl font-[100] text-center mb-10">

@@ -13,7 +13,7 @@ export function NavMobile({setNav, nav}) {
   }
   
   return (
-    <div className={nav ? "absolute w-full h-full z-50 laptop:hidden": 'hidden'}>
+    <div className={nav ? "absolute w-full h-full z-50 laptop:hidden": 'hidden'} onClick={() => settingNav()}>
       <div>
         <div className="w-[20px] flex flex-col top-[14px] right-[10px] absolute" onClick={() => settingNav()}>
           <div className='transition-all rotate-45 translate-x-[0px] translate-y-[2px] h-[2px] w-full block bg-white'></div>
